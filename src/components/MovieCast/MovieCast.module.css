@@ -1,0 +1,27 @@
+.cast_list {
+  display: flex;
+  flex-wrap: wrap;
+  list-style: none;
+}
+
+.cast_list_item {
+  margin-bottom: 10px;
+  margin-right: 20px;
+  border: 1px solid gray;
+  border-radius: 4px;
+  width: 150px;
+  height: 300px;
+}
+
+.cast_list_name {
+  font-size: 18px;
+  font-weight: 700;
+  margin: 0;
+  text-align: center;
+}
+.cast_list_character {
+  font-size: 16px;
+  font-weight: 500;
+  margin: 0;
+  text-align: center;
+}

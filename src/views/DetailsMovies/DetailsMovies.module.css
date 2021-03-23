@@ -1,0 +1,55 @@
+.movie_card {
+  padding-top: 20px;
+  padding-left: 50px;
+}
+
+.movie_card_button {
+  margin-bottom: 20px;
+  width: 150px;
+  height: 40px;
+}
+
+.movie_container {
+  display: flex;
+  padding-bottom: 5px;
+  box-shadow: 0 15px 10px 0 rgba(119, 56, 56, 0.2);
+}
+
+.movie_card_img {
+  width: 350px;
+  height: 500px;
+  margin-right: 30px;
+}
+
+.movie_container_wrapper {
+  display: flex;
+  flex-direction: column;
+  font-size: 20px;
+}
+
+.movie_genres_list {
+  display: flex;
+  padding: 0;
+}
+.movie_genres_list_item {
+  list-style: none;
+}
+
+.movie_genres_list_item:not(:last-child) {
+  margin-right: 20px;
+}
+
+.movie_add_inform_list_item {
+  font-size: 20px;
+  font-weight: 700;
+  color: blue;
+}
+.movie_add_inform_list_item:not(:last-child) {
+  margin-bottom: 10px;
+}
+
+.movie_add_inform_list_link:hover,
+.movie_add_inform_list_link:focus,
+.movie_add_inform_list_link:active {
+  color: red;
+}

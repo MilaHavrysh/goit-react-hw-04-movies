@@ -1,0 +1,29 @@
+.movie_list {
+  padding-left: 50px;
+  padding-right: 20px;
+}
+
+.movie_list_item {
+  font-size: 18px;
+  font-weight: 500;
+  color: blue;
+}
+.movie_list_item:not(:last-child) {
+  margin-bottom: 10px;
+}
+
+.movie_list_item:hover,
+.movie_list_item:focus,
+.movie_list_item:active {
+  color: red;
+}
+
+.movie_list_link {
+  color: blue;
+}
+
+.movie_list_link:hover,
+.movie_list_link:focus,
+.movie_list_link:active {
+  color: red;
+}

@@ -1,0 +1,23 @@
+.nav_list {
+  display: flex;
+}
+
+.nav_list_item {
+  list-style: none;
+}
+
+.nav_list_item:not(:last-child) {
+  margin-right: 50px;
+  text-decoration: none;
+}
+
+.nav_list_link {
+  color: black;
+  text-decoration: none;
+}
+
+.nav_list_link:hover,
+.nav_list_link:focus,
+.nav_list_link:active {
+  color: red;
+}
